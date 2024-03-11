@@ -1,0 +1,52 @@
+.opt-container{
+    min-height: 83vh;
+}
+.option-btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.option-btn button{
+    width: 300px;
+    height: 60px;
+    border-radius: 0;
+    background-color: rgb(198, 228, 128);
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.option-resource{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.option-resource input{
+    width: 300px;
+    margin: 10px;
+    border: 2px solid rgb(140, 161, 91);
+}
+
+.option-resource button{
+    background-color: #fff;
+    border-radius: 0;
+    border: 2px solid rgb(140, 161, 91);
+    font-size: 11px; 
+    color: #111; 
+    transition: background-color 0.3s ease; 
+
+}
+
+.option-resource button:hover{
+    background-color:rgb(140, 161, 91) ;
+    box-shadow: none;
+
+}
